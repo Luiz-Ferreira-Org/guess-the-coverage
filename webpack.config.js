@@ -1,5 +1,6 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
 
 module.exports = {
   entry: './src/index.tsx',
@@ -22,6 +23,10 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: './src/index.html',
+    }),
+    new BundleAnalyzerPlugin({
+      analyzerMode: 'static', // Generates a static HTML file with the bundle report
+      openAnalyzer: true, // Automatically opens the report in the default browser
     }),
   ],
   devServer: {
