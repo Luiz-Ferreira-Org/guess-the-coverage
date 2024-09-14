@@ -1,0 +1,12 @@
+{
+  "name": "guess-the-coverage",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Luiz Fernando Ferreira",
+  "license": "ISC",
+  "description": "A simple project to demonstrate how coverage works"
+}
