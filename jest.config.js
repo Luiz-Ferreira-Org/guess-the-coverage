@@ -17,5 +17,29 @@ module.exports = {
       functions: 95,
       lines: 95,
     },
+    "./src/**/*.ts": {
+      statements: 90,
+      branches: 90,
+      functions: 90,
+      lines: 90,
+    },
+    "./src/**/*.tsx": {
+      statements: 90,
+      branches: 90,
+      functions: 90,
+      lines: 90,
+    },
+    "./src/**/*.js": {
+      statements: 90,
+      branches: 90,
+      functions: 90,
+      lines: 90,
+    },
+    "./src/**/*.jsx": {
+      statements: 90,
+      branches: 90,
+      functions: 90,
+      lines: 90,
+    },
   },
 };
