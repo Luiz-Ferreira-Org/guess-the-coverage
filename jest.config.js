@@ -10,6 +10,10 @@ module.exports = {
   collectCoverage: false,
   coverageReporters: ["lcov", "text"],
   coverageDirectory: "coverage",
+  collectCoverageFrom: [
+    "src/**/*.{ts,tsx,js,jsx}",
+    "!src/**/*.d.ts", // Exclude type declaration files
+  ],
   coverageThreshold: {
     global: {
       statements: 95,
