@@ -7,7 +7,19 @@ module.exports = {
   moduleDirectories: ["node_modules", "src"],
   moduleFileExtensions: ["ts", "tsx", "js", "jsx", "json", "node"],
   testMatch: ["**/__tests__/**/*.ts?(x)", "**/?(*.)+(spec|test).ts?(x)"],
-  collectCoverage: true,
+  collectCoverage: false,
   coverageReporters: ["lcov", "text"],
   coverageDirectory: "coverage",
+  collectCoverageFrom: [
+    "src/**/*.{ts,tsx,js,jsx}",
+    "!src/**/*.d.ts", // Exclude type declaration files
+  ],
+  coverageThreshold: {
+    global: {
+      statements: 95,
+      branches: 95,
+      functions: 95,
+      lines: 95,
+    },
+  },
 };

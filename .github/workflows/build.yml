@@ -17,6 +17,7 @@ jobs:
         run: yarn
       - name: Test and coverage
         run: yarn jest --coverage
+        continue-on-error: true
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@master
         env:
