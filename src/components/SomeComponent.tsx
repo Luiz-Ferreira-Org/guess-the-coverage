@@ -1,6 +1,6 @@
 import React from "react";
 
-function SomeComponent():React.ReactElement {
+function SomeComponent(): React.ReactElement {
   return <div>SomeComponent</div>;
 }
 

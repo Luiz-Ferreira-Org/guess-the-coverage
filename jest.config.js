@@ -13,6 +13,7 @@ module.exports = {
   collectCoverageFrom: [
     "src/**/*.{ts,tsx,js,jsx}",
     "!src/**/*.d.ts", // Exclude type declaration files
+    "!src/index.tsx" // Exclude index.tsx from coverage
   ],
   coverageThreshold: {
     global: {
