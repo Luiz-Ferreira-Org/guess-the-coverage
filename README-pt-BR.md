@@ -5,10 +5,10 @@
 Cobertura de código é uma medida usada para descrever o grau em que o código-fonte de um programa é testado por um conjunto de testes específico. Ela fornece insights sobre quais partes do código estão sendo executadas durante os testes e quais não estão. Percentuais mais altos de cobertura geralmente indicam que mais partes do código estão sendo testadas, o que pode levar a uma maior qualidade do código e menos bugs.
 
 ### Tipos de Cobertura:
-- **Cobertura de Declaração**: Garante que cada declaração no código tenha sido executada pelo menos uma vez.
-- **Cobertura de Ramificação**: Garante que cada ramificação (por exemplo, blocos `if` e `else`) tenha sido executada.
-- **Cobertura de Função**: Garante que cada função ou método tenha sido chamada.
-- **Cobertura de Linha**: Garante que cada linha de código tenha sido executada.
+- **Cobertura de Declaração (Statement)**: Garante que cada declaração no código tenha sido executada pelo menos uma vez.
+- **Cobertura de Ramificação (Branch)**: Garante que cada ramificação (por exemplo, blocos `if` e `else`) tenha sido executada.
+- **Cobertura de Função (Function)**: Garante que cada função ou método tenha sido chamada.
+- **Cobertura de Linha (Line)**: Garante que cada linha de código tenha sido executada.
 
 ## Sonar
 
